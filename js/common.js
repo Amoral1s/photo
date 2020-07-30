@@ -28,4 +28,6 @@ $(document).ready(function () {
       $('.header__menu').removeClass('header__menu__active');
     });
   }
+ 
+
 });
