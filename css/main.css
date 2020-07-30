@@ -677,6 +677,9 @@ section {
 
 .about__right img {
   height: auto !important;
+  width: 100%;
+  min-height: 0;
+  max-height: 100%;
 }
 
 .up {
