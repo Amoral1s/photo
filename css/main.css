@@ -858,7 +858,7 @@ section {
 
 @media (max-width: 578px) {
   .about__right img {
-    max-height: 400px;
+    max-height: 777px;
     width: auto;
   }
   .portfolio__item h3 {
