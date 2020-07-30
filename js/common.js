@@ -29,7 +29,7 @@ $(document).ready(function () {
     });
   }
 
-  //Lazy load JS Native
+ /*  //Lazy load JS Native
 
   const images = document.querySelectorAll('.portfolio__href img');
   
@@ -87,7 +87,7 @@ $(document).ready(function () {
         observer.observe(img);
     });
   }
-  
+   */
 
 
 

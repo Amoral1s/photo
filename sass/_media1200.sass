@@ -1,13 +1,47 @@
 
+@media (max-width: 1709px)
+  
+  .header__logo
+    max-width: 380px
+@media (max-width: 1580px)
+  .header__logo
+    max-width: 300px
+  .header__menu ul li a
+    font-size: 10px
 @media (max-width: 1399px)
   .header__menu ul li
     margin: 0 15px
     a
-      font-size: 12px
+      font-size: 10px
+      letter-spacing: .1em
+    &:after
+      right: -18px
+@media (max-width: 1269px)
+  .header__logo
+    max-width: 250px
+  .header__menu ul li
+    margin: 0 15px
+    a
+      font-size: 10px
       letter-spacing: .1em
     &:after
       right: -18px
 @media (max-width: 1199px)
+  .header__menu ul li
+    margin: 0 10px
+    a
+      font-size: 10px
+      letter-spacing: .1em
+    &:after
+      right: -13px
   .about__left p
     font-size: 16px
     line-height: 20px
+@media (max-width: 1139px)
+  .header
+    padding-left: 20px
+    padding-right: 10px
+  .header__menu ul li
+    margin: 0 4px
+    &:after
+      display: none
