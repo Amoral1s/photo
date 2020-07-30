@@ -864,9 +864,16 @@ section {
   }
   .q__form form .input input[type="text"], .q__form form .input input[type="tel"] {
     margin: 0;
+    height: 60px;
+    font-size: 20px;
   }
   .q__form form .input input[type="text"] {
     margin-right: 20px;
+  }
+  .q__form form .submit input {
+    height: 70px;
+    width: 300px;
+    font-size: 22px;
   }
   .inst .subtitle {
     margin-top: 30px;
